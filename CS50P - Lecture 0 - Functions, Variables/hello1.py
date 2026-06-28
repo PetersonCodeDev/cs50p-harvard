@@ -1,17 +1,17 @@
-# Perguntar ao usuario qual é  nome dele
-nome = input("Qual é o seu nome ? ")
+# Perguntar ao usuario qual é  name dele
+name = input("Qual é o seu name ? ")
 
 # Remove espaço em branco da str
-#nome = nome.strip()
+#name = name.strip()
 
 # Deixa a primeira letra após o espaço maiuscula
-#nome = nome.title()
+#name = name.title()
 
 # Remover espaço em branco da str e deixar em maiusculo
-nome = nome.strip().title()
+name = name.strip().title()
 
-#dividir o nome do usuario do seu nome e sobre nome
-fist, last = nome.split()
+#dividir o name do usuario do seu name e sobre name
+first, last = name.split()
 
 # Dizer olá ao usuario
-print (f"Olá, {fist}!") 
+print (f"Olá, {first}!") 

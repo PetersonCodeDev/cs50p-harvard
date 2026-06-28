@@ -2,4 +2,4 @@
 nome = input("Qual é o seu nome ? ")
 
 #dizer olá ao usuario
-print ("hello,", nome)
+print ("hello," + (nome)) #ou print ("hello,", nome)
