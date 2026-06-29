@@ -1,0 +1,6 @@
+nome = (input("Digite seu nome: "))
+idade = int(input("Digite sua idade: "))
+cidade = input("Digite sua cidade: ")
+nome = nome.strip().title()
+cidade = cidade.strip().title()
+print(f"Olá, me chamo {nome}! tenho {idade} anos e moro em {cidade}.")

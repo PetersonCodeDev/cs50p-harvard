@@ -1,0 +1,5 @@
+nome = input("Qual é o seu nome ? ")
+first, last = nome.split()
+first = first[0].upper()
+last = last[0].upper()
+print (f"Olá, {first}.{last}")

@@ -1,0 +1,5 @@
+nome = input("Qual é o seu nome? ")
+sobrenome = input("Qual é o seu sobrenome? ")
+nome = nome.strip().upper()
+sobrenome = sobrenome.strip().upper()
+print(f"Olá, {sobrenome}, {nome}!")

@@ -1,0 +1,5 @@
+kg = float(input("Peso: "))
+Altura = float(input("Altura: "))
+resultado = kg / (Altura ** 2)
+resultado = round(resultado, 2)
+print(f"Seu IMC é: {resultado}")
